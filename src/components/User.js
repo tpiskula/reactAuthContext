@@ -10,7 +10,7 @@ const User = () => {
         return (
         <div>
             <div>
-                {Object.keys(user).map(k => <li>{k}: {user[k]}</li>)}
+                {Object.keys(user).map(k => <li>{k}: {user[k].toString()}</li>)}
             </div>
         </div>
       )
