@@ -3,9 +3,10 @@
   "description": "",
   "version": "0.0.134",
   "dependencies": {
-    "react-router-dom": "4.1.1",
+    "jwt-decode": "2.2.0",
+    "react": "15.5.3",
     "react-dom": "15.5.3",
-    "react": "15.5.3"
+    "react-router-dom": "4.1.1"
   },
   "devDependencies": {
     "react-scripts": "1.0.0"
