@@ -3,7 +3,7 @@ import { Redirect } from "react-router";
 import WithAuth from './WithAuth'
 
 
-const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImV4cCI6MTUxOTk5NTQwMTg2NX0.hXjCqJVVd4KhubnE1D3pXv52DznBP1hT6xwE_5D_csM";
+const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImV4cCI6MTUzMjk1NjAyNzA4OX0.fbUy7AIxKCctgL8rePwR6lc2dKY8Y5xp9XbJMLlkkmc";
 
 
 const Login = () => {

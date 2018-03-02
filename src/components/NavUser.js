@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import WithAuth from './WithAuth'
 
 const NavUser = () => {
@@ -9,7 +11,7 @@ const NavUser = () => {
           return (
             auth.isAuthenticated() ?
             (<span style={{float:'right'}}>
-                {auth.getUser().name}
+                <Link to='/user'>{auth.getUser().name}</Link>
                 <button onClick={() => auth.logout()} >Logout</button>
             </span>)
             : null
