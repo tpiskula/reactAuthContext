@@ -1,23 +1,22 @@
 import React from 'react'
 import { Redirect } from "react-router";
-import WithAuth from './WithAuth'
+import WithUser from './WithUser'
 
 const User = () => {
   return (
-    <WithAuth>
+    <WithUser>
     {
-        (auth) => {
+        (user) => {
         return (
         <div>
             <div>
-                {JSON.stringify(auth.getUser())}
-                <button onClick={() => auth.logout()} >Logout</button>
+                {Object.keys(user).map(k => <li>{k}: {user[k]}</li>)}
             </div>
         </div>
       )
       }
     }
-    </WithAuth>
+    </WithUser>
 )}
 
 export default User
